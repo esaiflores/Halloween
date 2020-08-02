@@ -61,24 +61,41 @@ public class monsterSquad {
     public void dracula () {
         System.out.println("");
         System.out.println("You look like the dark and mysterious Count" + playerName);
+        System.out.println("What are you going to do as " + playerName);
+        System.out.println("1. Trick or Treat");
+        System.out.println();
+        System.out.println("2. Go see what the kids are whispering about in the treehouse");
 
     }
 
     public void wolfMan () {
         System.out.println("");
         System.out.println("You look like the hairy and ravenous" + playerName);
+        System.out.println("What are you going to do as " + playerName);
+        System.out.println("1. Trick or Treat");
+        System.out.println();
+        System.out.println("2. Go see what the kids are whispering about in the treehouse");
 
     }
 
     public void creature () {
         System.out.println("");
         System.out.println("You look like the slimy and scaly " + playerName );
+        System.out.println("What are you going to do as " + playerName);
+        System.out.println("1. Trick or Treat");
+        System.out.println();
+        System.out.println("2. Go see what the kids are whispering about in the treehouse");
 
     }
 
     public void mummy () {
         System.out.println("");
         System.out.println("You look like the old and bandaged" + playerName);
+        System.out.println("What are you going to do as " + playerName);
+        System.out.println("1. Trick or Treat");
+        System.out.println();
+        System.out.println("2. Go see what the kids are whispering about in the treehouse");
+
 
     }
 
