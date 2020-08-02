@@ -66,6 +66,27 @@ public class monsterSquad {
         System.out.println();
         System.out.println("2. Go see what the kids are whispering about in the treehouse");
 
+
+        do {
+            if (!myScanner.hasNextInt()) {
+                String input = myScanner.nextLine();
+                System.out.printf("%s is not a proper input.%n", input);
+            }
+        } while (!myScanner.hasNextInt());
+
+        choice = myScanner.nextInt();
+
+        if(choice == 1) {
+            System.out.println("You got loads of candy");
+//            Might want to add randomizer for pieces of candy'
+            dracula();
+        } else if(choice == 2){
+            treehouse();
+        } else if (choice != 1 || choice != 2 ) {
+            System.out.println("That is not a choice.");
+            dracula();
+        }
+
     }
 
     public void wolfMan () {
@@ -75,6 +96,28 @@ public class monsterSquad {
         System.out.println("1. Trick or Treat");
         System.out.println();
         System.out.println("2. Go see what the kids are whispering about in the treehouse");
+
+        do {
+            if (!myScanner.hasNextInt()) {
+                String input = myScanner.nextLine();
+                System.out.printf("%s is not a proper input.%n", input);
+            }
+        } while (!myScanner.hasNextInt());
+
+        choice = myScanner.nextInt();
+
+        if(choice == 1) {
+            System.out.println("You got loads of candy");
+//            Might want to add randomizer for pieces of candy'
+            wolfMan();
+        } else if(choice == 2){
+            treehouse();
+        } else if (choice != 1 || choice != 2 ) {
+            System.out.println("That is not a choice.");
+            wolfMan();
+        }
+
+
 
     }
 
@@ -86,6 +129,26 @@ public class monsterSquad {
         System.out.println();
         System.out.println("2. Go see what the kids are whispering about in the treehouse");
 
+        do {
+            if (!myScanner.hasNextInt()) {
+                String input = myScanner.nextLine();
+                System.out.printf("%s is not a proper input.%n", input);
+            }
+        } while (!myScanner.hasNextInt());
+
+        choice = myScanner.nextInt();
+
+        if(choice == 1) {
+            System.out.println("You got loads of candy");
+//            Might want to add randomizer for pieces of candy'
+            creature();
+        } else if(choice == 2){
+            treehouse();
+        } else if (choice != 1 || choice != 2 ) {
+            System.out.println("That is not a choice.");
+            creature();
+        }
+
     }
 
     public void mummy () {
@@ -95,6 +158,32 @@ public class monsterSquad {
         System.out.println("1. Trick or Treat");
         System.out.println();
         System.out.println("2. Go see what the kids are whispering about in the treehouse");
+
+        do {
+            if (!myScanner.hasNextInt()) {
+                String input = myScanner.nextLine();
+                System.out.printf("%s is not a proper input.%n", input);
+            }
+        } while (!myScanner.hasNextInt());
+
+        choice = myScanner.nextInt();
+
+        if(choice == 1) {
+            System.out.println("You got loads of candy");
+//            Might want to add randomizer for pieces of candy'
+            mummy();
+        } else if(choice == 2){
+            treehouse();
+        } else if (choice != 1 || choice != 2 ) {
+            System.out.println("That is not a choice.");
+            mummy();
+        }
+
+
+    }
+
+    public void treehouse () {
+
 
 
     }
