@@ -184,7 +184,16 @@ public class monsterSquad {
 
     public void treehouse () {
 
-
+        System.out.println("\n------------------------------------------------------------------\n");
+        System.out.println("You walk over to the treehouse and hear kids whisper about. As you get closer their whispers turn into shouts");
+        System.out.println("\n------------------------------------------------------------------\n");
+        System.out.println("They are talking about monsters and what they fear the most. When they find" + playerName + "That Monster is gonna be Toast");
+        System.out.println("You get scared and do not know what to do... you..");
+        System.out.println();
+        System.out.println("1: Run Far Away down the street");
+        System.out.println();
+        System.out.println("2: Attack");
+        System.out.println("\n------------------------------------------------------------------\n");
 
     }
 
